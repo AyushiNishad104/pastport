@@ -10,7 +10,7 @@ interface ProfileScreenProps {
     visited: string[];
     quizzesCompleted: number;
   };
-  onNavigate: (screen: string) => void;
+  onNavigate: (screen: "home" | "scan" | "ar" | "quiz" | "profile" | "map") => void;
   onOpenAdmin: () => void;
 }
 

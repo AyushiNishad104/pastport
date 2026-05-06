@@ -50,7 +50,7 @@ const defaultData: AdminData = {
 
 const ADMIN_PASSWORD = "pastport2024";
 
-const TabIcon: Record<string, JSX.Element> = {
+const TabIcon: Record<string, React.ReactElement> = {
   monuments: <MapPin size={16} />,
   users:     <Users size={16} />,
   quizzes:   <HelpCircle size={16} />,
